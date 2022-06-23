@@ -9,7 +9,6 @@ body {
 /* header */
 
 div.header {
-    height: 75vh;
     background-color: #1F2937;
 }
 
@@ -21,7 +20,13 @@ div.header {
     justify-content: space-between;
 
     height: 8vh;
-    padding: 0 15vw;
+    padding: 0 16vw;
+}
+
+p.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8
 }
 
 ul.nav-links {
@@ -46,27 +51,41 @@ div.hero-container {
     flex-direction: row;
     justify-content: space-around;
     gap: 2vw;
-
-    padding: 10vh 15vw;
+    padding: 15vh 16vw;
 }
 
-div.hero-main-text {
-    width: 45vw;
-    height: 40vh;
+div.hero {
+    flex: 40%;   
 }
 
 div.header-img {
-    width: 55vw;
-    height: 40vh;
+    flex: 60%;
     background-color: rgb(219, 219, 219);
 }
 
-h1.hero {
-    font-size: 48px;
+h1.hero-text {
+    font-size: 55px;
     font-weight: 900;
+    line-height: 90%;
 }
+
 
 p.hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+button.header-button {
+    font-size: 20px;
+    font-weight: 900;
+
+    padding: 1vh 2vw;
+    border-radius: 1.2vh;
+    border: none;
+    background-color: #3882F6;
+}
+
+button.header-button:hover {
+    cursor: pointer;
+    background-color: #2d6bcf;
 }
