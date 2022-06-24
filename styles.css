@@ -230,3 +230,11 @@ p.call-subtext {
 #action-button {
     border: 2px solid #E5E7EB;
 }
+
+/*footer*/
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 5vh 0;
+}
