@@ -172,7 +172,7 @@ p.info-text {
 /*quote panel*/
 
 div.quote-div {
-    padding: 15vh 0;
+    padding: 15vh 0 12vh;
     background-color: #E5E7EB;
 }
 
@@ -198,3 +198,35 @@ p.quote-author {
 }
 
 /*action panel*/
+
+div.action-div {
+    padding: 15vh 0;
+    background-color: white;
+}
+
+div.action-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 15px;
+    margin: 0 18vw;
+    padding: 3.5vh 0;
+    background-color: #3882F6;
+}
+
+h3.call {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+p.call-subtext {
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+#action-button {
+    border: 2px solid #E5E7EB;
+}
