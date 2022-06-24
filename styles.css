@@ -6,12 +6,9 @@ body {
     font-weight: 400;
 }
 
+
+
 /* header */
-
-div.header {
-    background-color: #1F2937;
-}
-
 
 .header-nav {
     display: flex;
@@ -21,6 +18,7 @@ div.header {
 
     height: 8vh;
     padding: 0 16vw;
+    background-color: #1F2937;
 }
 
 p.header-logo {
@@ -44,23 +42,28 @@ a.nav-links,
     color: #F9FAF8
 }
 
-/*Parent div for hero and header img*/
+/*div for hero and header img*/
 
 div.hero-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    max-width: 68vw;
     gap: 2vw;
     padding: 15vh 16vw;
+    background-color: #1F2937;
 }
 
 div.hero {
-    flex: 40%;   
+    flex: 1;
+
 }
 
 div.header-img {
-    flex: 60%;
-    background-color: rgb(219, 219, 219);
+    flex: 1.5;
+    max-width: 68vw;
+    background-color: #d3d3d3;
 }
 
 h1.hero-text {
@@ -88,4 +91,58 @@ button.header-button {
 button.header-button:hover {
     cursor: pointer;
     background-color: #2d6bcf;
+}
+
+/*info panel*/
+
+div.info-div {
+    padding-top: 5vh;
+    background-color: #E5E7EB;
+}
+
+h2.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1F2937;
+    margin-top: 0;
+    margin-bottom: 5vh;
+
+}
+
+div.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3vw;
+
+    max-width: 68vw;
+    padding: 0 22vw 15vh;
+}
+
+div.info-box-div {
+    flex: 1;
+
+}
+
+div.info-img-div {
+    box-sizing: border-box;
+    border: 0.3vw solid #3882F6;
+    border-radius: 8%;
+    height: 10vw;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div.info-text-div {
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.info-text {
+    margin: 0.4rem 0;
+    text-align: center;
 }
