@@ -18,7 +18,7 @@ body {
 
     height: 8vh;
     padding: 0 16vw;
-    background-color: #1F2937;
+    background-color: #4C8DC7;
 }
 
 p.header-logo {
@@ -36,7 +36,7 @@ ul.nav-links {
     font-size: 18px;
 }
 
-a.nav-links,
+a,
 .white-text {
     text-decoration: none;
     color: #F9FAF8
@@ -47,27 +47,33 @@ a.nav-links,
 div.hero-div {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
-    max-width: 68vw;
+    /* max-width: 68vw; */
     gap: 2vw;
-    padding: 15vh 16vw;
-    background-color: #1F2937;
+    /* padding: 15vh 16vw; */
+    height: 75vh;
+    background-color: #4C8DC7;
+    padding-bottom: 3vh;
 }
 
 div.hero {
     flex: 1;
+    padding: 15vh 0 15vh 16vw;
 
 }
 
 div.header-img {
-    flex: 1.5;
+    flex: 2.5;
     max-width: 68vw;
-    background-color: #d3d3d3;
+    background-image: url(assets/header-img.svg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    /* background-color: #d3d3d3; */
 }
 
 h1.hero-text {
-    font-size: 55px;
+    font-size: 60px;
     font-weight: 900;
     line-height: 90%;
 }
@@ -85,12 +91,12 @@ button.header-button {
     padding: 1vh 2vw;
     border-radius: 1.2vh;
     border: none;
-    background-color: #3882F6;
+    background-color: #3273db;
 }
 
 button.header-button:hover {
     cursor: pointer;
-    background-color: #2d6bcf;
+    background-color: #2c65c2;
 }
 
 /*info panel*/
@@ -127,33 +133,44 @@ div.info-box-div {
 
 div.info-img-div {
     box-sizing: border-box;
-    border: 0.3vw solid #3882F6;
+    /* border: 0.3vw solid #3882F6; */
     border-radius: 8%;
-    height: 10vw;
-    width: 10vw;
+    height: 11vw;
+    width: 11vw;
     margin-left: auto;
     margin-right: auto;
 
 }
 
-/*
+
 #img-1 {
-    background-color: #c0d8fd;
+    background-image: url(assets/Cool\ Kids\ -\ Conversation.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #img-2 {
-    background-color: #a0c6ff;
+    background-image: url(assets/Cool\ Kids\ -\ Plant.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #img-3 {
-    background-color: #61a0ff;
+    background-image: url(assets/Cool\ Kids\ -\ Coffee\ Mug.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #img-4 {
-    background-color: #116ffc;
+    background-image: url(assets/Cool\ Kids\ -\ Travel.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-*/
 
 div.info-text-div {
     width: 10vw;
@@ -213,7 +230,7 @@ div.action-container {
     border-radius: 15px;
     margin: 0 18vw;
     padding: 3.5vh 0;
-    background-color: #3882F6;
+    background-color: #3273db;
 }
 
 h3.call {
@@ -234,7 +251,7 @@ p.call-subtext {
 /*footer*/
 
 footer {
-    background-color: #1F2937;
+    background-color: #4C8DC7;
     text-align: center;
     padding: 5vh 0;
 }
