@@ -44,7 +44,7 @@ a.nav-links,
 
 /*div for hero and header img*/
 
-div.hero-container {
+div.hero-div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -97,7 +97,7 @@ button.header-button:hover {
 
 div.info-div {
     padding-top: 5vh;
-    background-color: #E5E7EB;
+    background-color: white;
 }
 
 h2.info-title {
@@ -136,13 +136,65 @@ div.info-img-div {
 
 }
 
+/*
+#img-1 {
+    background-color: #c0d8fd;
+}
+
+#img-2 {
+    background-color: #a0c6ff;
+}
+
+#img-3 {
+    background-color: #61a0ff;
+}
+
+#img-4 {
+    background-color: #116ffc;
+}
+
+*/
+
 div.info-text-div {
     width: 10vw;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
+    text-align-last: center;
+    text-justify: inter-word;
 }
 
 p.info-text {
-    margin: 0.4rem 0;
-    text-align: center;
+    margin: 0.5rem 0;
+    color: #1F2937;
 }
+
+/*quote panel*/
+
+div.quote-div {
+    padding: 15vh 0;
+    background-color: #E5E7EB;
+}
+
+div.quote-container {
+    max-width: 68vw;
+    padding: 0 22vw;
+}
+
+p.quote {
+    font-size: 2.3rem;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #1F2937;
+}
+
+p.quote-author {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: right;
+    color: #1F2937;
+}
+
+/*action panel*/
